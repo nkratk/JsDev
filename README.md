@@ -1,7 +1,5 @@
 # Introduction
 
-User Interface for Clean Fast Friendly (CFF) initiative.
-
 # Setup
 
 1. Install all dependencies`npm install`

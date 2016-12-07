@@ -1,4 +1,3 @@
-// Allowing console calls below since this is a build file.
 /* eslint-disable no-console */
 import webpack from 'webpack';
 import webpackConfig from '../webpack.config';
@@ -14,7 +13,7 @@ fsExtra.emptyDirSync('dist');
 
 console.log('Generating minified bundle for production via Webpack. This will take a moment...');
 
-fs.readFile('cff/index.html', 'utf8', (err, markup) => {
+fs.readFile('source/index.html', 'utf8', (err, markup) => {
   if (err) {
     return console.log(err);
   }

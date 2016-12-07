@@ -1,11 +1,11 @@
 {
-  "name": "ui-cff",
+  "name": "Js Dev",
   "version": "0.0.1",
-  "description": "Clean Fast Friendly(CFF) User Interface",
-  "author": "The Walmart Data Cafe Team.",
+  "description": "Js Dev Env",
+  "author": "Kishore",
   "repository": {
     "type": "git",
-    "url": "ssh://git@gecgithub01.walmart.com:aramesh/ui-cff.git"
+    "url": "https://github.com/nkratk/JsDev.git"
   },
   "dependencies": {},
   "scripts": {

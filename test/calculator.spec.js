@@ -1,4 +1,4 @@
-import Calculator from '../cff/js/calculator';
+import Calculator from '../source/js/calculator';
 
 describe('Calculator', () => {
    it('should add two numbers', () => {

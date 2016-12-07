@@ -4,11 +4,11 @@ import sampleCtrl2 from './sampleCtrl2.js';
 
 class TestCtrl {
   constructor() {
-    this.A = "CFF test";
+    this.A = "test";
   }
 }
 
-angular.module("cff-app", ['dcafe.alertmessages'])
+angular.module("test-app", [])
   .controller("testCtrl", TestCtrl)
   .controller("sampleCtrl1", sampleCtrl1)
   .controller("sampleCtrl2", sampleCtrl2);

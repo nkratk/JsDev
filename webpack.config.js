@@ -4,7 +4,7 @@
 
 const webpack = require('webpack');
 const path = require('path');
-const homePath = path.resolve(__dirname, 'cff');
+const homePath = path.resolve(__dirname, 'source');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const nodeEnv = process.env.NODE_ENV || 'development';
